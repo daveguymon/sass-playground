@@ -1,0 +1,46 @@
+$bg-color: #69688C;
+$hover-color: #F5A4A1;
+$font-color: #ffffff;
+$height: 75px;
+$width: 100%;
+
+
+nav {
+  width: $width;
+  height: $height;
+  border: 1px solid grey;
+
+  ul {
+    height: $height;
+    display: flex;
+    align-items: center;
+    background-color: $bg-color;
+  }
+
+  li {
+    height: $height;
+    margin: 0 8px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 60px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $font-color;
+    height: $height;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+  }
+
+  a:hover {
+    height: $height;
+    background-color: $hover-color;
+    display: flex;
+    justify-content: center;
+    width: 60px;
+  }
+}
